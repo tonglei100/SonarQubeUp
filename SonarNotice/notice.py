@@ -11,7 +11,7 @@ class Sonar:
 
     def login(self):
         headers = {'Content-Type': 'application/x-www-form-urlencoded'}
-        payload = {'login': 'admin', 'password': 'SQ123456'}
+        payload = {'login': 'admin', 'password': '******'}
         r = self.s.post(api['login'], headers=headers, data=payload)
         self.validate()
 
