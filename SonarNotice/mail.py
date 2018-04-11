@@ -5,11 +5,11 @@ import email.mime.text
 
 class Mail:
     def __init__(self):
-        self.sender = 'sonar@bosera.com'
+        self.sender = 'sonar@xxxx.com'
         self.username = 'sonar'
-        self.password = '123QWEasd'
+        self.password = '******'
         self.smtp = smtplib.SMTP()
-        self.smtp.connect('mail.bosera.com')
+        self.smtp.connect('mail.xxxx.com')
         self.smtp.login(self.username, self.password)
 
     def send(self, name, to, cc, notice):
@@ -40,5 +40,5 @@ class Mail:
 
 if __name__ == '__main__':
     mail = Mail()
-    mail.send('koss', ['saikm3@bosera.com'], ['tongl@bosera.com'], {
+    mail.send('koss', ['saikm3@xxxx.com'], ['tongl@xxxx.com'], {
               'status': '正常', 'body': 'This is a test'})
