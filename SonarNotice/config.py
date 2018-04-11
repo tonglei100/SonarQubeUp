@@ -26,5 +26,5 @@ metric2cn = {
 
 projects = [
     {'name': 'sweetest', 'key': 'sweetest', 'to': [
-        'tongl@xxxx.com'], 'cc':['shenhf@xxx.com']}
+        'ttt@xxxx.com'], 'cc':['ddd@xxx.com']}
 ]
